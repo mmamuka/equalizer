@@ -245,6 +245,11 @@ div svg:hover #twitter{
         background-image: url(bg-main-tablet.png), url("bg-pattern-1.svg");
         background-repeat: no-repeat, no-repeat;
         background-position: left -323px top -391px, left 63vw top -5vh;
+        height: 800px;
+    }
+
+    .equalizer{
+        margin-top: 62px;
     }
 
     .head-h1 {
@@ -268,23 +273,30 @@ div svg:hover #twitter{
         background-position: left 252px top -30px;
         margin-left: 4.29%;
         margin-right: 4.29%;
+        margin-top: 0;
+    }
+
+    .back-ilustration{
+        height: 600px;
     }
     .back-ilustration img {
-        margin-left: 14vh;
-        margin-top: 5vw;
-        
+        transform: translateX(170px);        
     }
 
     .phone-image {
-        margin-top: -32vh;
-        margin-left: -2vw;
-        
+        Width: 270.21px;
+        Height: 556px;
+        top: -128px;
+        left: 57px;
+        z-index: 1;        
     }
 
     .selection-2 {
-        margin-top: -38vh;
-        margin-left: 27vw;
-        height: 70vw;
+        top: -57vh;
+        left: 35vw;
+        width: 399px;
+        height: 546px;
+        z-index: 2;
     }
     
     footer{
