@@ -21,7 +21,6 @@ header {
     background-repeat: no-repeat;
     background-position: left 5px top -210px;
 }
-/* test */
 
 .equalizer {    
     margin-left: 6.4%;
@@ -254,8 +253,6 @@ div svg:hover #twitter{
     }
 
     .head-h1 {
-        /* margin-top: 100vh;
-        margin-left: 0vh; */
         width: 520px;
         font-size: 64px;
         line-height: 64px;
@@ -334,72 +331,77 @@ div svg:hover #twitter{
         background-repeat: no-repeat, no-repeat;
         background-position: left -276px top -214px, left 79vw top -5vh;
     }
-
+    .head {
+        margin-left: 145px;
+    }
     .equalizer {
-        margin-left: 17.5vh;
-        padding-top: 6.5vw;
+        margin-left: 145px;
+        padding-top: 13px;
     }
 
     .head-h1 {
-        margin-top: -19vh;
-        margin-left: 5.5vh;
-        width: 800px;
-        height: 176px;
-        font-size: 64px;
-        line-height: 64px;
+        margin-top: -127px;
+        width: 1015px;
+        font-size: 88px;
+        line-height: 88px;
         letter-spacing: -0.727273px;
     }
 
-    header p{
-        margin-left: 5.5vh;
+    .head p{
+        margin-top: 40px;
+        width: 825px;
+        font-size: 20px;
+        line-height: 34px;
     }
 
     .selection-1{
         background-position: left 252px top -30px;
-        margin-left: 4.29%;
-        margin-right: 4.29%;
+        margin-left: 10.45%;
+        margin-right: 10.45%;
+        height: 600px;
     }
 
     .back-ilustration img {
-        margin-left: 14vh;
-        margin-top: 5vw;
+        margin-left: 15vh;
+        margin-top: -62px;
         
     }
 
     .phone-image {
-        margin-top: -115vh;
-        margin-left: 4vw;
+        margin-top: -56px;
+        margin-left: 42px;
         
     }
 
     
     .selection-2 {
-        margin-top: -50vh;
-        margin-left: 55vw;
-        height: 40vw;
+        margin-top: -8vh;
+        margin-left: 13vw;
+        height: 625px;
     }
 
     footer{
         justify-content: space-between;
-        display: flex;
+        /* display: flex; */
         margin-left: 10%;
+        margin-top: 10%;
     }
 
     footer img{
         display: inline-block;
-        margin-top: 0;
+        margin-top: 0px;
         margin-left: 10%;
         
     }
 
     footer p{
-        margin-left: 137.76px;
-        margin-top: 0;
+        margin-left: 217.6px;
+        margin-top: 0px;
         margin-bottom: 91px;
         
     }
     footer div{
-        margin-top: 0;
+        margin-top: 0px;
         margin-bottom: 0;
     }
 
