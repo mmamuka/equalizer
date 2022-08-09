@@ -68,6 +68,7 @@ header {
     height: 430px;
     left: 59px;
     top: -91px;
+    /* z-index: 3; */
 }
 
 .back-ilustration {
@@ -76,16 +77,18 @@ header {
 }
 .back-ilustration img {
     margin-left: 6vh;
+    /* z-index: 2; */
 }
 
 .selection-2 {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     background: #FA7453;
     border-radius: 12px;
     height: 546px;
-    top: -40px;    
+    margin-top: -70px;  
+    /* z-index: 1;   */
 }
 
 .first-wrap {
@@ -197,11 +200,13 @@ header {
 }
 
 footer {
+    /* margin-top: 100px; */
     justify-content: space-between;
     margin-left: 5%;
 }
 
 footer img{
+    margin-top: 800px;
     margin-left: 5%;
 }
 
@@ -278,7 +283,9 @@ div svg:hover #twitter{
         height: 600px;
     }
     .back-ilustration img {
-        transform: translateX(170px);        
+        transform: translateX(170px);
+        margin-top: -25px;
+                
     }
 
     .phone-image {
@@ -286,12 +293,13 @@ div svg:hover #twitter{
         Height: 556px;
         top: -128px;
         left: 57px;
-        z-index: 1;        
+        z-index: 2;        
     }
 
     .selection-2 {
-        top: -57vh;
-        left: 35vw;
+        position: absolute;
+        margin-top: -55vh;
+        margin-left: 35vw;
         width: 399px;
         height: 546px;
         z-index: 2;
@@ -304,6 +312,7 @@ div svg:hover #twitter{
     }
 
     footer img{
+        margin-top: 140px;
         display: block;
         margin-left: 5%;
     }
@@ -364,7 +373,7 @@ div svg:hover #twitter{
     .back-ilustration img {
         margin-left: 15vh;
         margin-top: -62px;
-        
+        /* z-index: 1; */
     }
 
     .phone-image {
@@ -375,9 +384,10 @@ div svg:hover #twitter{
 
     
     .selection-2 {
-        margin-top: -8vh;
-        margin-left: 13vw;
+        margin-top: -68vh;
+        margin-left: 50vw;
         height: 625px;
+        /* z-index: 2; */
     }
 
     footer{
@@ -390,13 +400,13 @@ div svg:hover #twitter{
     footer img{
         display: inline-block;
         margin-top: 0px;
-        margin-left: 10%;
+        margin-left: 166px;
         
     }
 
     footer p{
         margin-left: 217.6px;
-        margin-top: 0px;
+        margin-top: 186px;
         margin-bottom: 91px;
         
     }
